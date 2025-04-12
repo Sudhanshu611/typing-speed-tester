@@ -21,7 +21,7 @@ const simpleWords = [
 
 function sentenceGenerator(){
     let lst = []
-    for (let i = 0; i < 20; i++){
+    for (let i = 0; i < 35; i++){
         const randomNumber = Math.floor(Math.random() * simpleWords.length) + 1;
         lst.push(simpleWords[randomNumber]);
     }
