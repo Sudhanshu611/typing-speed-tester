@@ -57,9 +57,16 @@ textarea{
     box-shadow: 5px 10px 10px rgba(0,0,0,0.1) ;
     letter-spacing: 1.3px;
 }
-.test{
+.sentence-chars{
+    padding: 1px;
+}
+.pass{
     background-color: rgba(144, 238, 144, 0.8) ;
     color: green;
+}
+.fail {
+    background-color: rgba(255, 99, 71, 0.3); /* Tomato Red with opacity */
+    color: darkred;
 }
 .start-btn {
     display: grid;
